@@ -1,0 +1,26 @@
+{
+  "name": "fooddelivery",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx parcel index.html",
+    "build": "npx parcel build index.html"
+  },
+  "author": "saikrishna",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.22.0",
+    "cors": "^2.8.5",
+    "papaparse": "^5.4.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.27.0"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  }
+}

@@ -1,0 +1,76 @@
+.header-div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2px;
+    
+}
+
+.header-div:hover{
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: #f0f0f0;
+}
+.nav-items-div > ul{
+    display: flex;
+}
+.nav-items-div >ul >li{
+    padding: 0px 10px;
+    list-style-type: none;
+    margin:40px;
+    font-size: 15px;
+}
+.logo{
+   width: 130px;
+}
+
+.res-card-div{
+    width:300px;
+    height: 450px;
+    padding: 1px;
+    margin:5px;
+    
+}
+
+.res-card-div:hover{
+    border: 1px solid black;
+  
+    cursor: pointer;
+}
+
+.res-logo{
+    width: 90%;
+    height:40%;
+    padding:5px;
+    padding-right: 0px;
+    margin:5px;
+}
+.search{
+    padding:5px;
+}
+
+.restaurant-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-items-filter{
+    padding:5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content:space-around;
+    
+}
+.nav-items-filter>button:hover{
+    cursor: pointer;
+    background-color: #f0f0f0;
+    border: 1px solid black;
+    
+}
+.shimmer-container{
+    display: flex;
+}
+.shimmer-container>card{
+    width:400px;
+    height:400px;
+    background-color: blue;
+}
